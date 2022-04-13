@@ -19,6 +19,7 @@ const useTimer = (ini = 0) => {
   const stopTimer = () => {
     isStart.current = false;
     clearInterval(refInterval.current);
+    active.current.disabled = false;
   };
   const resetTimer = () => {
     setTime(0);
