@@ -15,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
@@ -31,6 +32,7 @@ h1 {
   margin: 0 0 50px;
   text-align: center;
   text-shadow: 1px 1px 2px var(--text-shadow-color);
+  padding: 10px;
 }
 
 p {
@@ -53,6 +55,8 @@ p {
   background-color: var(--text-shadow-color);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding: 20px 10px;
+  margin: 10px;
 }
 .timer__display {
   padding-left: 1.5em;
